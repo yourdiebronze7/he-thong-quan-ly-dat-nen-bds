@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Chào mừng đến với Hệ Thống Quản Lý Đất Nền Bất Động Sản!');
+  res.send('Welcome to the Real Estate Land Management System!');
 });
 
 app.listen(PORT, () => {
