@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Real Estate Management System! Your future home awaits. Explore, find, and fall in love with your perfect space.');
+  res.send('Welcome to the Real Estate Management System! Explore your perfect space.');
 });
 
 app.listen(PORT, () => {
