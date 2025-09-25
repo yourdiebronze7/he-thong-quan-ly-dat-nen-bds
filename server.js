@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Real Estate Land Management System!');
+  res.send('Welcome to the Real Estate Management System!');
 });
 
 app.listen(PORT, () => {
