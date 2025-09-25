@@ -1,0 +1,20 @@
+{
+  "name": "he-thong-quan-ly-dat-nen-bds",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý đất nền bất động sản sử dụng công nghệ blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.8.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
